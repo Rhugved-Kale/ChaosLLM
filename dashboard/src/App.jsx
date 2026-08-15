@@ -139,8 +139,8 @@ export default function App() {
 
         {!runId && (
           <p className="empty-state">
-            No experiment has run yet. Click the button above to start one, or check back
-            &mdash; a new run also fires automatically every hour.
+            No experiment has run yet. Click the button above to start one, or check back,
+            a new run also fires automatically every hour.
           </p>
         )}
 
