@@ -6,7 +6,7 @@ import httpx
 import pytest
 from httpx import ASGITransport
 
-import demo.llm_client as llm_client
+from demo import llm_client
 from demo.main import app
 
 
